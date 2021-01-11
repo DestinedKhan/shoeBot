@@ -87,14 +87,14 @@ def waitF(self, driver):
         
 def main():
 
-    fname = "Reese"
-    lname = "Sydenstricker"
-    addy = "150 West 8th Avenue"
-    email = "reesecup28@gmail.com"
-    phone = 3046341270
+    fname = "FirstName"
+    lname = "LastName"
+    addy = "123 Washington Avenue"
+    email = "samplemail@gmail.com"
+    phone = 123456789
     city = "Columbus"
     state = "Ohio"
-    zipcode = 43201
+    zipcode = 00000
     
     url = 'https://www.nike.com/t/jordan-zoom-92-mens-shoe-HGMsj5/CK9183-100'
     bot = shoeBot(url)
